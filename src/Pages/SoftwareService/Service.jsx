@@ -1,3 +1,4 @@
+import Engagement from "./Engagement";
 import KnowMore from "./KnowMore";
 import ProjectBrand from "./ProjectBrand";
 import SoftwareTeam from "./SoftwareTeam";
@@ -10,6 +11,7 @@ const Service = () => {
           <ProjectBrand></ProjectBrand>
           <KnowMore></KnowMore>
           <Technology></Technology>
+          <Engagement></Engagement>
         </div>
     );
 };
