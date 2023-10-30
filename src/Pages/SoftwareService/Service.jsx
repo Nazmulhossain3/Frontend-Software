@@ -1,3 +1,4 @@
+import KnowMore from "./KnowMore";
 import ProjectBrand from "./ProjectBrand";
 import SoftwareTeam from "./SoftwareTeam";
 
@@ -6,6 +7,7 @@ const Service = () => {
         <div>
           <SoftwareTeam></SoftwareTeam>
           <ProjectBrand></ProjectBrand>
+          <KnowMore></KnowMore>
         </div>
     );
 };
