@@ -4,6 +4,7 @@ import ProjectBrand from "./ProjectBrand";
 import SoftwareTeam from "./SoftwareTeam";
 import TeamWork from "./TeamWork";
 import Technology from "./Technology";
+import Testomonial from "./Testomonial";
 
 const Service = () => {
     return (
@@ -14,6 +15,7 @@ const Service = () => {
           <Technology></Technology>
           <Engagement></Engagement>
           <TeamWork></TeamWork>
+          <Testomonial></Testomonial>
         </div>
     );
 };
