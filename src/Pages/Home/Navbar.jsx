@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unknown-property */
 import NavPhoto from '../../assets/NavPhoto.png'
+import { FaArrowRight } from "react-icons/fa";
 const Navbar = () => {
     return (
         <div>
@@ -34,9 +35,10 @@ const Navbar = () => {
       <li> Blog</li>
     </ul>
   </div>
-  <div className="navbar-end">
-    <a className="btn bg-red-600 text-white btn-outline">Contact Us</a>
-  </div>
+  <div className="navbar-end  ">
+ <div className='bg-red-500 lg:px-6 lg:py-3 p-3 rounded text-white flex flex-row lg:flex-row items-center'>
+ <button className=" ">Get Started </button> <FaArrowRight></FaArrowRight>  </div>
+ </div>
 </div>
 
             
