@@ -9,7 +9,7 @@ const Offers = () => {
             {/*This is all about our previous work experience */}
 
             <div className="p-12 ml-5 ">
-                <p className="text-4xl font-semibold px-12">See how we’ve worked with companies like yours</p>
+                <p className="text-4xl font-semibold px-12 mt-16">See how we’ve worked with companies like yours</p>
                 <p className="mt-6 text-xl px-12 font-semibold opacity-50 text-justify">We helped many small, medium, and large companies with their struggle in building successful remote software development teams or the whole IT hubs located in Bangladesh.</p>
             </div>
 

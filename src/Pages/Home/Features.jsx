@@ -1,7 +1,7 @@
 
 const Features = () => {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-12 text-center py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-12 text-center mt-24">
         
             {/* here is software team info */}
             <div>

@@ -6,7 +6,7 @@ const Navbar = () => {
         <div>
 
             
-<div className="navbar bg-base-100 shadow-md">
+<div className="navbar bg-base-100 shadow-md sticky top-0 z-50 ">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -36,7 +36,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end  ">
- <div className='bg-red-500 lg:px-6 lg:py-3 p-3 rounded text-white flex flex-row lg:flex-row items-center'>
+ <div className='bg-red-500 lg:px-6  lg:py-3 p-3 rounded text-white flex flex-row lg:flex-row items-center'>
  <button className=" ">Get Started </button> <FaArrowRight></FaArrowRight>  </div>
  </div>
 </div>
