@@ -8,7 +8,7 @@ const Offers = () => {
 
             {/*This is all about our previous work experience */}
 
-            <div className="p-12 ml-5">
+            <div className="p-12 ml-5 ">
                 <p className="text-4xl font-semibold px-12">See how we’ve worked with companies like yours</p>
                 <p className="mt-6 text-xl px-12 font-semibold opacity-50 text-justify">We helped many small, medium, and large companies with their struggle in building successful remote software development teams or the whole IT hubs located in Bangladesh.</p>
             </div>
@@ -16,7 +16,7 @@ const Offers = () => {
 
           {/* work experience list one */}
 
-            <div className='grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 p-16 gap-16 mx-auto'>
+            <div className='grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 p-16 gap-16 mx-auto bg-[#FAFAFA]'>
                 <img src={Offer1} alt="" />
                <div>
                <h2 className='text-4xl font-semibold ' >Building a software team
@@ -29,7 +29,7 @@ const Offers = () => {
             </div>
           {/* work experience list two */}
 
-            <div className='grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 p-16 gap-16 mx-auto'>
+            <div className='grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 p-16 gap-16 mx-auto '>
              
                <div>
                <h2 className='text-4xl font-semibold ' >Establishing an entirely new, remote team for the UK’s first fully digital bank</h2>
@@ -46,7 +46,7 @@ const Offers = () => {
           
           {/* work experience list three */}
 
-            <div className='grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 p-16 gap-16 mx-auto'>
+            <div className='grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 p-16 gap-16 mx-auto bg-[#FAFAFA]'>
             <img src={Offer3} alt="" />
                <div>
                <h2 className='text-4xl font-semibold ' >Scaling a software development team for mobile payment startup</h2>
