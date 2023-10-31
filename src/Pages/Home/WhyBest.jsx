@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 
+import AOS from 'aos';
+
+import 'aos/dist/aos.css';
+
 const WhyBest = () => {
     const [datas,setDatas] = useState([])
 
@@ -16,7 +20,9 @@ const WhyBest = () => {
 
     },[])
 
-
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+      }, []);
 
     return (
         <div className="bg-[#FAFAFA]">
@@ -38,7 +44,10 @@ const WhyBest = () => {
     
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-16 gap-10">
         {
-            datas.map((item,index)=> <div className="border bg-white p-8" key={index}>
+            datas.map((item,index)=> <div data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+          
+            data-aos-offset="0"  className="border bg-white p-8" key={index}>
 
                 <img className="w-14 h-14" src={item.img} alt="" />
                 <h1 className="mt-4 text-xl font-bold">{item.title}</h1>

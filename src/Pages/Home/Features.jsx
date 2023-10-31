@@ -1,10 +1,18 @@
-
+import AOS from 'aos';
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
 const Features = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+      }, []);
+
+
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-12 text-center mt-24">
         
             {/* here is software team info */}
-            <div>
+            <div data-aos="fade-up">
                 <h1 className="text-4xl font-bold">Software team</h1>
                 <h1 className="mt-2 text-4xl font-bold opacity-30">Extension</h1>
                 <h4 className="mt-4 text-xl font-bold">Developers: 1-5</h4>
@@ -13,7 +21,7 @@ const Features = () => {
             </div>
             
       {/* Dedicated Software team info */}
-               <div>
+               <div data-aos="fade-up">
                <h1 className="text-4xl font-bold">Dedicated</h1>
                 <h1 className="mt-2 text-4xl font-bold opacity-30">Software team</h1>
                 <h4 className="mt-4 text-xl font-bold">Developers: 15-25</h4>
@@ -23,7 +31,7 @@ const Features = () => {
                </div>
     
     {/* it hub info */}
-            <div>
+            <div data-aos="fade-down">
             <h1  className="text-4xl font-bold">IT Development</h1>
                 <h1  className="mt-2 text-4xl font-bold opacity-30">Hub</h1>
                 <h4 className="mt-4 text-xl font-bold">Developers: 15-25</h4>

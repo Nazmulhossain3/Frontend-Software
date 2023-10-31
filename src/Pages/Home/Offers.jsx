@@ -2,7 +2,16 @@ import { FaArrowRight } from 'react-icons/fa';
 import Offer1 from '../../assets/Img/offer1.webp'
 import Offer2 from '../../assets/Img/offer2.webp'
 import Offer3 from '../../assets/Img/offer3.webp'
+
+import AOS from 'aos';
+import { useEffect } from 'react';
+import 'aos/dist/aos.css';
+
 const Offers = () => {
+
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
     return (
         <div>
 
@@ -17,7 +26,9 @@ const Offers = () => {
           {/* work experience list one */}
 
             <div className='grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 p-16 gap-16 mx-auto bg-[#FAFAFA]'>
-                <img src={Offer1} alt="" />
+                <img  data-aos="fade-right"
+                      data-aos-offset="100"
+                     data-aos-easing="ease-in-sine" src={Offer1} alt="" />
                <div>
                <h2 className='text-4xl font-semibold ' >Building a software team
                 for the unicorn in the cloud-kitchen industry</h2>
@@ -31,15 +42,17 @@ const Offers = () => {
 
             <div className='grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1 p-16 gap-16 mx-auto '>
              
-               <div>
+               <div data-aos="zoom-in">
                <h2 className='text-4xl font-semibold ' >Establishing an entirely new, remote team for the UK’s first fully digital bank</h2>
                 
-                <h2 className='mt-8 text-2xl font-semibold opacity-50'>When Atom Bank contacted NxTide in June 2021, we were extremely excited. We knew this disruptive project aligned with our mission and the client’s ambitions. And so it begins… </h2>
+                <h2 className='mt-8 text-2xl font-semibold opacity-50'>When Atom Bank contacted Innovision Labs in June 2021, we were extremely excited. We knew this disruptive project aligned with our mission and the client’s ambitions. And so it begins… </h2>
                 <div className='bg-black lg:px-6 lg:py-3 md:w-44 w-44 p-2 lg:w-44 lg:mt-20 md:mt-20 mt-6 rounded gap-4 text-white flex  flex-row items-center justify-center'>
             <button className=" ">Learn More </button> <FaArrowRight></FaArrowRight>  </div>
                </div>
 
-               <img src={Offer2} alt="" />
+               <img  data-aos="fade-left"
+                      data-aos-offset="100"
+                     data-aos-easing="ease-in-sine" src={Offer2} alt="" />
             </div>
           
           

@@ -28,19 +28,61 @@ const SliderSection = () => {
       >
         <SwiperSlide>
       
-        <img src={project1} alt="" />
+      <div>
+      <img src={project1} alt="" />
+      <p  className='mt-2 opacity-50'>WebInterPret</p>
+      </div>
        
         </SwiperSlide>
       
       
-        <SwiperSlide><img src={project2} alt="" /></SwiperSlide>
+        <SwiperSlide>
+          <div>
+          <img src={project2} alt="" />
+          <p className=' opacity-50'>Unlocked</p>
+          </div>
+          </SwiperSlide>
       
-        <SwiperSlide><img src={project3} alt="" /></SwiperSlide>
+        <SwiperSlide>
+        <div>
+        <img src={project3} alt="" />
+        <p className=' opacity-50'>Atom</p>
+        </div>
+        </SwiperSlide>
       
-        <SwiperSlide><img src={project4} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={project5} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={project6} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={project7} alt="" /></SwiperSlide>
+        <SwiperSlide>
+        <div>
+        <img src={project4} alt="" />
+        <p className='mt-2  opacity-50'>Discover cracov</p>
+        </div>
+        </SwiperSlide>
+        
+      
+        <SwiperSlide>
+          <div>
+          <img src={project5} alt="" />
+          <p className=' opacity-50'>UItiArena</p>
+          </div>
+        
+        </SwiperSlide>
+       
+       
+       
+        <SwiperSlide>
+        <div>
+        <img src={project6} alt="" />
+        <p className=' opacity-50'>Frost</p>
+        </div>
+        </SwiperSlide>
+       
+       
+        <SwiperSlide>
+        <div>
+        <img src={project7} alt="" />
+        <p className=' opacity-50'>With health</p>
+        </div>
+        
+        </SwiperSlide>
        
       </Swiper>
    

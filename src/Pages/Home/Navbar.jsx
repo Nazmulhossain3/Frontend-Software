@@ -1,13 +1,16 @@
 /* eslint-disable react/no-unknown-property */
 import { Link } from 'react-router-dom';
-import NavPhoto from '../../assets/NavPhoto.png'
+import NavPhoto from '../../assets/Img/NabPic.png'
 import { FaArrowRight } from "react-icons/fa";
+
+
+
 const Navbar = () => {
     return (
-        <div>
+        <div className=''>
 
             
-<div className="navbar bg-base-100 shadow-md sticky top-0 z-50 ">
+<div className="navbar bg-base-100 shadow-md">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -20,7 +23,7 @@ const Navbar = () => {
      
       </ul>
     </div>
-    <img src={NavPhoto} className="w-24 h-24" />
+    <img src={NavPhoto} className="w-16 h-16" />
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 gap-6 text-xl">

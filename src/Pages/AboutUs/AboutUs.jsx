@@ -1,6 +1,7 @@
 import BrandPromise from "./BrandPromise";
 import Experience from "./Experience";
 import Identification from "./Identification";
+import ManagementTeam from "./ManagementTeam";
 import Vision from "./Vision";
 
 const AboutUs = () => {
@@ -10,6 +11,7 @@ const AboutUs = () => {
           <Vision></Vision>
           <BrandPromise></BrandPromise>
           <Experience></Experience>
+          <ManagementTeam></ManagementTeam>
         </div>
     );
 };
