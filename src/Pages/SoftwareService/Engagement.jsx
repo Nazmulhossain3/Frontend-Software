@@ -10,7 +10,7 @@ const Engagement = () => {
 
             {/* here how to engage with us info */}
 
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 text-center px-24 gap-8 py-16">
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 text-center px-24 gap-8 py-16">
                 <div className=" border p-6 bg-white">
                     <h2 className="text-5xl text-red-700 font-bold">1</h2>
                     <h2 className="mt-3 text-3xl font-bold opacity-50">Let's chat</h2>

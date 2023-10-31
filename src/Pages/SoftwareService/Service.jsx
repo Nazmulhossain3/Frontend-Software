@@ -1,3 +1,4 @@
+import ContactUs from "./ContactUs";
 import Engagement from "./Engagement";
 import KnowMore from "./KnowMore";
 import ProjectBrand from "./ProjectBrand";
@@ -16,6 +17,7 @@ const Service = () => {
           <Engagement></Engagement>
           <TeamWork></TeamWork>
           <Testomonial></Testomonial>
+          <ContactUs></ContactUs>
         </div>
     );
 };
