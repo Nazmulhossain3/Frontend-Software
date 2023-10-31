@@ -1,8 +1,11 @@
+import Identification from "./Identification";
+import Vision from "./Vision";
 
 const AboutUs = () => {
     return (
         <div>
-            <h2>this is about us part</h2>
+          <Identification></Identification>
+          <Vision></Vision>
         </div>
     );
 };
